@@ -22,10 +22,10 @@ interface Photo {
 const photos: Photo[] = [
   {
     id: "hakaluki-sunset",
-    title: "Hakaluki Haor at Sunset",
+    title: "Field Interviews with Small-scale Fishers",
     location: "Sylhet Division",
     category: "fieldwork",
-    description: "Evening view during fieldwork at the Hakaluki Haor wetland, one of Asia's largest freshwater marshes.",
+    description: "Engaging with the fishing community at Hakaluki Haor to collect primary data for my research on climate-driven livelihood vulnerabilities.",
     placeholder: "bg-gradient-to-br from-orange-400 via-pink-500 to-purple-600",
     image: "/images/Hakaluki1.jpg",
   },
