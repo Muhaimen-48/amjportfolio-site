@@ -23,7 +23,7 @@ const photos: Photo[] = [
   {
     id: "hakaluki-sunset",
     title: "Field Interviews with Small-scale Fishers",
-    location: "Sylhet Division",
+    location: "Hakaluki Haor, Gilachhara, Fenchuganj, Sylhet",
     category: "fieldwork",
     description: "Engaging with the fishing community at Hakaluki Haor to collect primary data for my research on climate-driven livelihood vulnerabilities.",
     placeholder: "bg-gradient-to-br from-orange-400 via-pink-500 to-purple-600",
