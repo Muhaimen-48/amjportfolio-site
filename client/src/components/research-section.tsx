@@ -205,7 +205,7 @@ export function ResearchSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            Research Experience
+            Research and Training Experience
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto rounded-full mb-4" />
           <p className="text-muted-foreground max-w-2xl mx-auto">
