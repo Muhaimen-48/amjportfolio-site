@@ -62,6 +62,21 @@ const researchProjects: ResearchProject[] = [
     status: "completed",
   },
   {
+    id: "hilsa-resilience",
+    title: "Socio-ecological resilience and debt dynamics among small-scale hilsa fishers in Bangladesh",
+    role: "Research Team Member",
+    period: "October 2023 - February 2024",
+    supervisor: {
+      name: "Published in Maritime Studies",
+      title: "Volume 23, 2024",
+      email: ""
+    },
+    summary: "Conducted household-level socio-economic surveys and contributed to policy-relevant analysis on debt cycles and fisheries governance among hilsa-dependent communities.",
+    techniques: ["Socio-economic Surveys", "Data Cleaning", "Policy Analysis", "Manuscript Preparation"],
+    status: "completed",
+    detailPageId: "hilsa-resilience"
+  },
+  {
     id: "nvivo",
     title: "Qualitative Data Analysis with NVivo",
     role: "Trainee at Datascape Research & Consultancy Ltd",
