@@ -58,15 +58,6 @@ export function HeroSection() {
                 View Research
               </Button>
               <Button
-                variant="outline"
-                asChild
-              >
-                <Link href="/cv" data-testid="button-download-cv">
-                  <Download className="h-4 w-4 mr-2" />
-                  Download CV
-                </Link>
-              </Button>
-              <Button
                 variant="ghost"
                 onClick={() => scrollToSection("#contact")}
                 data-testid="button-contact"
