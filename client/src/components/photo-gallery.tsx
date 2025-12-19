@@ -27,7 +27,7 @@ const photos: Photo[] = [
     category: "fieldwork",
     description: "Evening view during fieldwork at the Hakaluki Haor wetland, one of Asia's largest freshwater marshes.",
     placeholder: "bg-gradient-to-br from-orange-400 via-pink-500 to-purple-600",
-    image: "/Hakaluki1.jpg",
+    image: "/images/Hakaluki1.jpg",
   },
   {
     id: "fishing-community",
