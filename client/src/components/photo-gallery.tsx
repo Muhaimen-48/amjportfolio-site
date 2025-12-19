@@ -164,9 +164,9 @@ export function PhotoGallery() {
                     {photo.image ? (
                       <img src={photo.image} alt={photo.title} className="h-full w-full object-cover" />
                     ) : (
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <Camera className="h-12 w-12 text-white/50" />
-                    </div>
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <Camera className="h-12 w-12 text-white/50" />
+                      </div>
                     )}
                   </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -185,8 +185,7 @@ export function PhotoGallery() {
 
         <div className="mt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            Photography is one of my hobbies. These placeholder images represent photos 
-            from fieldwork and travels. High-quality images can be added here.
+            Photography is one of my hobbies. High-quality images from my fieldwork and travels are added here.
           </p>
         </div>
 
@@ -200,11 +199,11 @@ export function PhotoGallery() {
                 <div className={`aspect-[16/10] ${selectedPhoto.placeholder} relative`}>
                   {selectedPhoto.image ? (
                     <img src={selectedPhoto.image} alt={selectedPhoto.title} className="h-full w-full object-contain" />
-                    ) : (
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <Camera className="h-24 w-24 text-white/30" />
-                  </div>
-                )}
+                  ) : (
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <Camera className="h-24 w-24 text-white/30" />
+                    </div>
+                  )}
                 </div>
                 
                 <Button
