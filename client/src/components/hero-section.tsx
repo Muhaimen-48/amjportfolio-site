@@ -35,13 +35,13 @@ export function HeroSection() {
             </div>
             
             <h2 className="text-xl sm:text-2xl text-muted-foreground font-medium">
-              Early Career Fisheries Science Researcher
+              Graduate Researcher in Fisheries | Climate & Ecosystems
             </h2>
             
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-              I am a fisheries science graduate and M.Sc. student with interests in aquatic ecology, climate-ecosystem interactions,
-              and biodiversity restoration. I use research and data-driven approaches to understand environmental change and support 
-              ecosystem recovery, particularly in coastal and wetland systems.
+              A fisheries science graduate and M.Sc. student with interests in aquatic ecology, climate-ecosystem interactions, 
+              and biodiversity restoration. Uses research and data-driven approaches to understand environmental change and 
+              support ecosystem recovery, particularly in coastal and wetland systems.
             </p>
 
             <div className="flex items-center gap-2 text-muted-foreground">
