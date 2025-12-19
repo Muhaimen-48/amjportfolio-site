@@ -137,6 +137,38 @@ const researchProjects: Record<string, ResearchProject> = {
     ],
     impact: "The mapping data has been shared with local government and NGOs for infrastructure planning and has contributed to OpenStreetMap, benefiting humanitarian and development organizations.",
   },
+  "hilsa-resilience": {
+    id: "hilsa-resilience",
+    title: "Socio-ecological resilience and debt dynamics among small-scale hilsa fishers in Bangladesh",
+    shortTitle: "Hilsa Fishery Resilience",
+    role: "Research Team Member",
+    period: "January 2023 - February 2024",
+    status: "completed",
+    location: "Major fishing locales, Bangladesh",
+    coordinates: { lat: 22.3, lng: 91.8 },
+    summary: "This study explored the socio-ecological resilience of hilsa fishers in Bangladesh, specifically focusing on how the 'dadon' (informal credit) system creates a cycle of debt that hinders long-term community stability.",
+    objectives: [
+      "Analyze the 'dadon' loan system's impact on fisher livelihoods",
+      "Assess socio-ecological resilience using established frameworks",
+      "Identify drivers of debt cycles in small-scale fisheries",
+      "Propose policy-relevant interventions for fisheries governance",
+    ],
+    methodology: [
+      "Household-level socio-economic surveys across four major fishing locales",
+      "Qualitative interviews with community leaders and fishers",
+      "Data cleaning and interpretation of survey results",
+      "Socio-ecological systems (SES) framework application",
+      "Thematic analysis of debt dynamics",
+    ],
+    techniques: ["Socio-economic Surveys", "Data Cleaning", "Policy Analysis", "Thematic Analysis", "Manuscript Preparation"],
+    keyFindings: [
+      "The 'dadon' system provides immediate capital but traps fishers in chronic debt",
+      "High vulnerability to climate-driven catch fluctuations due to financial constraints",
+      "Traditional credit systems are preferred due to lack of formal banking access",
+      "Recommended government-backed micro-finance to build community resilience",
+    ],
+    impact: "The research, published in Maritime Studies (2024), provides a framework for policymakers to address debt cycles and enhance the resilience of hilsa-dependent communities.",
+  },
 };
 
 export default function ResearchProjectPage() {
