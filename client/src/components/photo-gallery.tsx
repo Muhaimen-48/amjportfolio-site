@@ -16,6 +16,7 @@ interface Photo {
   category: "fieldwork" | "travel" | "nature" | "research";
   description: string;
   placeholder: string;
+  image?: string;
 }
 
 const photos: Photo[] = [
@@ -26,6 +27,7 @@ const photos: Photo[] = [
     category: "fieldwork",
     description: "Evening view during fieldwork at the Hakaluki Haor wetland, one of Asia's largest freshwater marshes.",
     placeholder: "bg-gradient-to-br from-orange-400 via-pink-500 to-purple-600",
+    image: "/Hakaluki1.jpg",
   },
   {
     id: "fishing-community",
@@ -159,9 +161,13 @@ export function PhotoGallery() {
               <CardContent className="p-0">
                 <div className="relative aspect-[4/3] overflow-hidden">
                   <div className={`absolute inset-0 ${photo.placeholder} transition-transform duration-300 group-hover:scale-105`}>
+                    {photo.image ? (
+                      <img src={photo.image} alt={photo.title} className="h-full w-full object-cover" />
+                    ) : (
                     <div className="absolute inset-0 flex items-center justify-center">
                       <Camera className="h-12 w-12 text-white/50" />
                     </div>
+                    )}
                   </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                   <div className="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform">
@@ -191,10 +197,14 @@ export function PhotoGallery() {
             </DialogTitle>
             {selectedPhoto && (
               <div className="relative">
-                <div className={`aspect-[16/10] ${selectedPhoto.placeholder}`}>
+                <div className={`aspect-[16/10] ${selectedPhoto.placeholder} relative`}>
+                  {selectedPhoto.image ? (
+                    <img src={selectedPhoto.image} alt={selectedPhoto.title} className="h-full w-full object-contain" />
+                    ) : (
                   <div className="absolute inset-0 flex items-center justify-center">
                     <Camera className="h-24 w-24 text-white/30" />
                   </div>
+                )}
                 </div>
                 
                 <Button
