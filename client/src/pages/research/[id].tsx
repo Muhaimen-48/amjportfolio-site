@@ -92,7 +92,6 @@ const researchProjects: Record<string, ResearchProject> = {
       "Household surveys with fishery-dependent families",
       "Key informant interviews with community leaders and government officials",
       "Focus group discussions with fishing communities",
-      "GIS mapping of vulnerable areas",
     ],
     techniques: ["Sustainable Livelihood Framework", "Mixed-Methods Approach", "QGIS", "ArcGIS", "Google Earth Pro", "Adobe Illustrator", "Thematic Analysis", "Statistical Analysis"],
     keyFindings: [
