@@ -18,11 +18,11 @@ export default function Home() {
       <main>
         <HeroSection />
         <AboutSection />
+        <EducationSection />
         <ResearchSection />
         <ResearchMap />
         <PublicationsSection />
         <SkillsSection />
-        <EducationSection />
         <LeadershipSection />
         <PhotoGallery />
         <ContactSection />

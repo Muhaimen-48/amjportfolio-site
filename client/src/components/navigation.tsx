@@ -5,10 +5,10 @@ import { ThemeToggle } from "./theme-toggle";
 
 const navLinks = [
   { href: "#about", label: "About" },
+  { href: "#education", label: "Education" },
   { href: "#research", label: "Research" },
   { href: "#publications", label: "Publications" },
   { href: "#skills", label: "Skills" },
-  { href: "#education", label: "Education" },
   { href: "#leadership", label: "Leadership" },
   { href: "#contact", label: "Contact" },
 ];
