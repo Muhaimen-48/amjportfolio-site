@@ -47,19 +47,18 @@ export function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           <div className="space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I am a fisheries science student at the University of Chittagong with interests in 
-              aquatic ecology, climate-ecosystem interactions, and biodiversity restoration.
+              A fisheries science student at the University of Chittagong with interests in aquatic ecology, 
+              climate-ecosystem interactions, and biodiversity restoration.
             </p>
             <p className="text-base text-muted-foreground leading-relaxed">
-              With practical experience in GIS, programming, and research within fisheries and 
-              climate studies, I aim to use data-driven and spatial approaches to support 
-              ecosystem recovery and biodiversity outcomes, especially in coastal environments.
+              Has practical experience in GIS, programming, and fisheries and climate research, 
+              with a focus on data-driven and spatial approaches to support ecosystem recovery and biodiversity 
+              outcomes, particularly in coastal environments.
             </p>
             <p className="text-base text-muted-foreground leading-relaxed">
-              Currently pursuing my Master's degree in Fisheries Management, I am conducting 
-              thesis research on climate-driven shifts in inland fisheries productivity in 
-              northern Bangladesh, combining GIS analysis with statistical methods to understand 
-              climate-fishery linkages.
+              Currently pursuing a Master’s degree in Fisheries Management, conducting thesis research 
+              on climate-driven shifts in inland fisheries productivity in northern Bangladesh, integrating 
+              GIS analysis and statistical methods to examine climate-fishery linkages.
             </p>
 
             <div className="pt-4">
