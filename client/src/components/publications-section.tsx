@@ -105,7 +105,7 @@ export function PublicationsSection() {
                 <div className="h-12 w-12 rounded-full bg-muted flex items-center justify-center">
                   <BookOpen className="h-6 w-6 text-muted-foreground" />
                 </div>
-                <h3 className="font-medium text-foreground">More Research Coming Soon</h3>
+                <h3 className="font-medium text-foreground">More Research in Progress</h3>
                 <p className="text-sm text-muted-foreground max-w-sm">
                   Currently working on thesis research analyzing climate-driven shifts in inland 
                   fisheries productivity in northern Bangladesh.
