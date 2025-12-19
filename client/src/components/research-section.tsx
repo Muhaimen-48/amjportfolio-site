@@ -65,7 +65,7 @@ const researchProjects: ResearchProject[] = [
     id: "hilsa-resilience",
     title: "Socio-ecological resilience and debt dynamics among small-scale hilsa fishers in Bangladesh",
     role: "Research Team Member",
-    period: "October 2023 - February 2024",
+    period: "January 2023 - February 2024",
     supervisor: {
       name: "Published in Maritime Studies",
       title: "Volume 23, 2024",
