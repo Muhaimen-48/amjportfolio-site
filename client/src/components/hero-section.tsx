@@ -28,19 +28,20 @@ export function HeroSection() {
                 Welcome to my portfolio
               </p>
               <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                Abdul Muhaimen
+                Abdul Muhaimen Jamil
                 <br />
-                <span className="text-primary">Jamil Washi</span>
+                <span className="text-primary">Washi</span>
               </h1>
             </div>
             
             <h2 className="text-xl sm:text-2xl text-muted-foreground font-medium">
-              Fisheries Science Researcher & GIS Specialist
+              Early Career Fisheries Science Researcher
             </h2>
             
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-              Passionate about aquatic ecology, climate-ecosystem interactions, and biodiversity restoration.
-              Using data-driven and spatial approaches to support ecosystem recovery, especially in coastal environments.
+              I am a fisheries science graduate and M.Sc. student with interests in aquatic ecology, climate-ecosystem interactions,
+              and biodiversity restoration. I use research and data-driven approaches to understand environmental change and support 
+              ecosystem recovery, particularly in coastal and wetland systems.
             </p>
 
             <div className="flex items-center gap-2 text-muted-foreground">
