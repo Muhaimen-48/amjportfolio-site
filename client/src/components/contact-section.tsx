@@ -284,7 +284,7 @@ export function ContactSection() {
 
         <div className="mt-16 text-center">
           <p className="text-sm text-muted-foreground">
-            References available upon request
+            Thank You for Visiting My Portfolio Website!
           </p>
         </div>
       </div>
