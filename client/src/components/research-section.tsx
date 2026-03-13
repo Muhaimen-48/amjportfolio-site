@@ -104,6 +104,15 @@ const researchProjects: ResearchProject[] = [
     status: "completed",
     detailPageId: "sanitation-hygiene-mapping",
   },
+  {
+    id: "graphic-design",
+    title: "Professional Graphic Design Training",
+    role: "Trainee at Learning & Earning Development Project (LEDP), ICT Division",
+    period: "June 2020 - August 2020",
+    summary: "Completed a 200-hour (50-day) professional training program under the Learning & Earning Development Project (LEDP), ICT Division, Government of Bangladesh. The training focused on practical, hands-on learning aimed at building employable digital competencies in graphic design.",
+    techniques: ["Graphic Design", "Digital Competencies", "Adobe Illustrator", "Adobe Photoshop"],
+    status: "completed",
+  }
 ];
 
 function ResearchCard({ project }: { project: ResearchProject }) {
