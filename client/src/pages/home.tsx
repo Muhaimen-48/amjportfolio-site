@@ -20,8 +20,8 @@ export default function Home() {
         <AboutSection />
         <EducationSection />
         <ResearchSection />
-        <ResearchMap />
         <PublicationsSection />
+        <ResearchMap />
         <SkillsSection />
         <LeadershipSection />
         <PhotoGallery />
