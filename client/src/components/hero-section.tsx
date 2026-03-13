@@ -35,13 +35,12 @@ export function HeroSection() {
             </div>
             
             <h2 className="text-xl sm:text-2xl text-muted-foreground font-medium">
-              Graduate Researcher in Fisheries | Climate & Ecosystems
+              Graduate Researcher in Fisheries | Aquatic Ecosystems | Data & Spatial Analysis
             </h2>
             
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-              A fisheries science graduate and M.Sc. student with interests in aquatic ecology, climate-ecosystem interactions, 
-              and biodiversity restoration. Uses research and data-driven approaches to understand environmental change and 
-              support ecosystem recovery, particularly in coastal and wetland systems.
+              Fisheries science graduate and M.Sc. researcher with interests in aquatic ecology, fisheries management, and ecosystem sustainability. Experienced in quantitative research, GIS and remote sensing, and statistical analysis using R and Python to study fisheries systems and environmental change.
+Actively involved in research projects, scientific publication, and academic leadership, with experience in data analysis, spatial mapping, and interdisciplinary fisheries research. Interested in advancing evidence-based fisheries management, aquatic biodiversity conservation, and sustainable resource use.
             </p>
 
             <div className="flex items-center gap-2 text-muted-foreground">
