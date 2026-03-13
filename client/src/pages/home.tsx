@@ -10,6 +10,7 @@ import { ContactSection } from "@/components/contact-section";
 import { Footer } from "@/components/footer";
 import { ResearchMap } from "@/components/research-map";
 import { PhotoGallery } from "@/components/photo-gallery";
+import { ConferencesSection } from "@/components/conferences-section";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <EducationSection />
         <ResearchSection />
         <PublicationsSection />
+        <ConferencesSection />
         <ResearchMap />
         <SkillsSection />
         <LeadershipSection />
