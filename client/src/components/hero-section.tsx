@@ -39,8 +39,7 @@ export function HeroSection() {
             </h2>
             
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-              Fisheries science graduate and M.Sc. researcher with interests in aquatic ecology, fisheries management, and ecosystem sustainability. Experienced in quantitative research, GIS and remote sensing, and statistical analysis using R and Python to study fisheries systems and environmental change.
-Actively involved in research projects, scientific publication, and academic leadership, with experience in data analysis, spatial mapping, and interdisciplinary fisheries research. Interested in advancing evidence-based fisheries management, aquatic biodiversity conservation, and sustainable resource use.
+              Fisheries science graduate and M.Sc. researcher with experience in aquatic ecology, fisheries management, and data-driven environmental research. Skilled in GIS, remote sensing, and statistical analysis (R/Python). Engaged in research, publication, and scientific leadership focused on sustainable fisheries and ecosystem management.
             </p>
 
             <div className="flex items-center gap-2 text-muted-foreground">
