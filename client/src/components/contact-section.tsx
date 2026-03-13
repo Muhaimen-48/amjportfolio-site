@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Mail, Linkedin, MapPin, Send, Copy, Check, Phone } from "lucide-react";
+import { Mail, Linkedin, MapPin, Send, Copy, Check, MessageCircle } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -248,15 +248,30 @@ export function ContactSection() {
               </CardContent>
             </Card>
 
+            {/* এই অংশে WhatsApp কার্ডটি যুক্ত করা হয়েছে */}
             <Card className="hover-elevate overflow-visible">
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
                   <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
-                    <Phone className="h-6 w-6 text-primary" />
+                    <MessageCircle className="h-6 w-6 text-primary" />
                   </div>
                   <div className="flex-1">
-                    <h3 className="font-semibold text-foreground mb-1">Phone</h3>
-                    <p className="text-muted-foreground">+880 1735 910849</p>
+                    <h3 className="font-semibold text-foreground mb-1">WhatsApp</h3>
+                    <p className="text-muted-foreground mb-3">Send me a message directly</p>
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      asChild
+                    >
+                      <a
+                        href="https://wa.me/8801735910849"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <MessageCircle className="h-4 w-4 mr-1" />
+                        Message on WhatsApp
+                      </a>
+                    </Button>
                   </div>
                 </div>
               </CardContent>
