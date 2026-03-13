@@ -11,6 +11,7 @@ import { Footer } from "@/components/footer";
 import { ResearchMap } from "@/components/research-map";
 import { PhotoGallery } from "@/components/photo-gallery";
 import { ConferencesSection } from "@/components/conferences-section";
+import { AwardsSection } from "@/components/awards-section";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <ResearchMap />
         <SkillsSection />
         <LeadershipSection />
+        <AwardsSection />
         <PhotoGallery />
         <ContactSection />
       </main>
