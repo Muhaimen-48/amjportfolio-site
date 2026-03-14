@@ -1,6 +1,7 @@
 import { Navigation } from "@/components/navigation";
 import { HeroSection } from "@/components/hero-section";
 import { AboutSection } from "@/components/about-section";
+import { ResearchInterestsSection } from "@/components/research-interests";
 import { ResearchSection } from "@/components/research-section";
 import { PublicationsSection } from "@/components/publications-section";
 import { SkillsSection } from "@/components/skills-section";
@@ -20,6 +21,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <AboutSection />
+        <ResearchInterestsSection />
         <EducationSection />
         <ResearchSection />
         <PublicationsSection />
