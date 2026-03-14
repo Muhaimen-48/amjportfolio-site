@@ -9,13 +9,24 @@ interface SkillCategory {
 
 const skillCategories: SkillCategory[] = [
   {
+    icon: Database,
+    title: "Technical Skills",
+    skills: [
+      "NVivo", 
+      "Statistical Analysis", 
+      "Thematic Analysis", 
+      "Mixed-Methods Research",
+      "Microsoft Office"
+    ],
+  },
+  {
     icon: Map,
-    title: "Geospatial Tools",
+    title: "GIS & Spatial Tools",
     skills: ["QGIS", "ArcGIS Pro", "KoboToolbox", "Google Earth Pro", "OpenStreetMap"],
   },
   {
     icon: Code2,
-    title: "Programming & Technical",
+    title: "Programming",
     skills: [
       "Python",
       "R/RStudio",
@@ -25,22 +36,11 @@ const skillCategories: SkillCategory[] = [
       "LBSPR",
       "LBB",
       "DBI",
-      "Microsoft Office",
     ],
   },
   {
-    icon: Palette,
-    title: "Design & Visualization",
-    skills: ["Adobe Illustrator", "Adobe Photoshop", "Adobe Lightroom", "Data Visualization"],
-  },
-  {
-    icon: Database,
-    title: "Data Analysis",
-    skills: ["NVivo", "Statistical Analysis", "Thematic Analysis", "Mixed-Methods Research"],
-  },
-  {
     icon: FileText,
-    title: "Research Skills",
+    title: "Research Methods",
     skills: [
       "Data Collection",
       "Data Processing",
@@ -48,6 +48,11 @@ const skillCategories: SkillCategory[] = [
       "Literature Review",
       "Field Survey Design",
     ],
+  },
+  {
+    icon: Palette,
+    title: "Design Tools",
+    skills: ["Adobe Illustrator", "Adobe Photoshop", "Adobe Lightroom", "Data Visualization"],
   },
   {
     icon: Users,
