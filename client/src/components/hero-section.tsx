@@ -1,4 +1,4 @@
-import { MapPin, Mail, Linkedin, FileText, ChevronDown, Download } from "lucide-react";
+import { MapPin, Mail, Linkedin, FileText, ChevronDown, Download, GraduationCap, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Link } from "wouter";
@@ -38,9 +38,9 @@ export function HeroSection() {
               Graduate Researcher in Fisheries | Aquatic Ecosystems | Data & Spatial Analysis
             </h2>
             
-            <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed text-justify">
-  Fisheries science graduate and M.Sc. researcher with experience in aquatic ecology, fisheries management, and data-driven environmental research. Skilled in GIS, remote sensing, and statistical analysis (R/Python). Engaged in research, publication, and scientific leadership focused on sustainable fisheries and ecosystem management.
-</p>
+            <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed text-justify [text-justify:inter-word]">
+              Fisheries science graduate and M.Sc. researcher with experience in aquatic ecology, fisheries management, and data-driven environmental research. Skilled in GIS, remote sensing, and statistical analysis (R/Python). Engaged in research, publication, and scientific leadership focused on sustainable fisheries and ecosystem management.
+            </p>
 
             <div className="flex items-center gap-2 text-muted-foreground">
               <MapPin className="h-4 w-4 text-primary" />
@@ -75,6 +75,32 @@ export function HeroSection() {
                 >
                   <Linkedin className="h-4 w-4 mr-2" />
                   LinkedIn
+                </a>
+              </Button>
+              <Button
+                variant="ghost"
+                asChild
+              >
+                <a
+                  href="https://scholar.google.com/citations?user=24aF3TAAAAAJ&hl=en"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GraduationCap className="h-4 w-4 mr-2" />
+                  Google Scholar
+                </a>
+              </Button>
+              <Button
+                variant="ghost"
+                asChild
+              >
+                <a
+                  href="https://www.researchgate.net/profile/Abdul-Muhaimen-Jamil-Washi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <BookOpen className="h-4 w-4 mr-2" />
+                  ResearchGate
                 </a>
               </Button>
             </div>
