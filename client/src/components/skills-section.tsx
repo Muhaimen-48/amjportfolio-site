@@ -16,26 +16,35 @@ const skillCategories: SkillCategory[] = [
       "Statistical Analysis", 
       "Thematic Analysis", 
       "Mixed-Methods Research",
-      "Microsoft Office"
+      "Excel",
+      "PAST Software"
     ],
   },
   {
     icon: Map,
     title: "GIS & Spatial Tools",
-    skills: ["QGIS", "ArcGIS Pro", "KoboToolbox", "Google Earth Pro", "OpenStreetMap"],
+    skills: [
+      "QGIS", 
+      "ArcGIS Pro", 
+      "Google Earth Engine", 
+      "Google Earth Pro", 
+      "OpenStreetMap", 
+      "Rapid AI"
+    ],
   },
   {
     icon: Code2,
     title: "Programming",
     skills: [
       "Python",
-      "R/RStudio",
+      "R Programming",
       "TropFishR",
       "ggplot2",
       "JABBA",
       "LBSPR",
       "LBB",
       "DBI",
+      "Git & GitHub"
     ],
   },
   {
@@ -43,9 +52,11 @@ const skillCategories: SkillCategory[] = [
     title: "Research Methods",
     skills: [
       "Data Collection",
+      "KoboToolbox",
       "Data Processing",
       "Scientific Writing",
       "Literature Review",
+      "Mendeley",
       "Field Survey Design",
     ],
   },
