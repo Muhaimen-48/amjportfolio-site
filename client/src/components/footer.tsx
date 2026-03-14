@@ -76,7 +76,7 @@ export function Footer() {
 
             <div className="flex-1 text-center sm:text-right">
               <p className="text-xs text-muted-foreground">
-                Post Graduate, Fisheries Management | University of Chittagong
+                Post Graduate Student, Fisheries Management | University of Chittagong
               </p>
             </div>
           </div>

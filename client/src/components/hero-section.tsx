@@ -35,11 +35,11 @@ export function HeroSection() {
             </div>
             
             <h2 className="text-xl sm:text-2xl text-muted-foreground font-medium">
-              Fisheries Researcher | Aquatic Ecology | Spatial & Data Analysis
+              Graduate Researcher in Fisheries Science | GIS | Data Analysis
             </h2>
             
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed text-justify [text-justify:inter-word]">
-              Fisheries science graduate and M.Sc. researcher with experience in aquatic ecology, fisheries management, and data-driven environmental research. Skilled in GIS, remote sensing, and statistical analysis (R/Python). Engaged in research, publication, and scientific leadership focused on sustainable fisheries and ecosystem management.
+              Fisheries science graduate and M.Sc. researcher with experience in aquatic ecosystems, fisheries management, and data-driven research. Skilled in GIS and statistical analysis with involvement in research projects and scientific publication, focused on sustainable fisheries and environmental systems.
             </p>
 
             <div className="flex items-center gap-2 text-muted-foreground">
