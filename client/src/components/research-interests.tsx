@@ -2,26 +2,32 @@ import { TrendingUp, Droplets, Map, ThermometerSun, Users, ShieldCheck } from "l
 import { Card, CardContent } from "@/components/ui/card";
 
 const interests = [
-  {
-    icon: TrendingUp,
-    title: "Quantitative fisheries science and stock productivity",
-  },
+  // 1. Core Topic
   {
     icon: Droplets,
     title: "Aquatic ecosystem ecology and environmental change",
   },
+  // 2. Methods / Quantitative
+  {
+    icon: TrendingUp,
+    title: "Quantitative fisheries science and stock productivity",
+  },
+  // 3. Methods / Spatial
   {
     icon: Map,
     title: "Spatial fisheries analysis using GIS and remote sensing",
   },
+  // 4. Application / Impact
   {
     icon: ThermometerSun,
     title: "Climate change impacts on fisheries systems",
   },
+  // 5. Application / Human Dimension
   {
     icon: Users,
     title: "Socio-ecological resilience in fishing communities",
   },
+  // 6. Application / Goal
   {
     icon: ShieldCheck,
     title: "Sustainable fisheries governance and management",
