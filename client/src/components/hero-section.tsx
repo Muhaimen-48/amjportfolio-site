@@ -35,7 +35,7 @@ export function HeroSection() {
             </div>
             
             <h2 className="text-xl sm:text-2xl text-muted-foreground font-medium">
-              Graduate Researcher in Fisheries | Aquatic Ecosystems | Data & Spatial Analysis
+              Fisheries Researcher | Aquatic Ecology | Spatial & Data Analysis
             </h2>
             
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed text-justify [text-justify:inter-word]">
