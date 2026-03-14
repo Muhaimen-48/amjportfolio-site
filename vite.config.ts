@@ -3,7 +3,18 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
+// স্বয়ংক্রিয়ভাবে বর্তমান তারিখ জেনারেট করা হচ্ছে (ফরম্যাট: Date Month Year)
+const buildDate = new Date().toLocaleDateString('en-GB', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric'
+});
+
 export default defineConfig({
+  // তারিখটিকে ওয়েবসাইটের ভেরিয়েবল হিসেবে সেট করা হলো
+  define: {
+    'import.meta.env.VITE_LAST_UPDATED': JSON.stringify(buildDate),
+  },
   plugins: [
     react(),
     runtimeErrorOverlay(),
