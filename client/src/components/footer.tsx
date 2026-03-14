@@ -2,6 +2,9 @@ import { Linkedin, Mail, MapPin } from "lucide-react";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
+  // vite.config.ts থেকে স্বয়ংক্রিয় তারিখটি নেওয়া হচ্ছে। 
+  // লোকাল ডেভেলপমেন্টের সময় যাতে কোনো এরর না দেয়, তাই একটি ডিফল্ট তারিখও রাখা হলো।
+  const lastUpdated = import.meta.env.VITE_LAST_UPDATED || "15 March 2026";
 
   return (
     <footer className="bg-card border-t border-card-border py-12">
@@ -61,10 +64,16 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-sm text-muted-foreground">
-              &copy; {currentYear} Abdul Muhaimen Jamil Washi. All rights reserved.
-            </p>
-            <p className="text-xs text-muted-foreground">
+            <div className="flex flex-col items-center sm:items-start gap-1.5">
+              <p className="text-sm text-muted-foreground text-center sm:text-left">
+                &copy; {currentYear} Abdul Muhaimen Jamil Washi. All rights reserved.
+              </p>
+              {/* এই লাইনে আপডেট হওয়ার তারিখটি দেখানো হবে */}
+              <p className="text-xs text-muted-foreground/80 font-medium">
+                Last updated: {lastUpdated}
+              </p>
+            </div>
+            <p className="text-xs text-muted-foreground text-center sm:text-right">
               MSc Candidate, Fisheries Management | University of Chittagong
             </p>
           </div>
