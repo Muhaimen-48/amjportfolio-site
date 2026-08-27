@@ -24,8 +24,8 @@ const educationData: Education[] = [
     field: "Fisheries Management",
     institution: "University of Chittagong",
     location: "Hathazari, Chittagong-4331",
-    period: "May 2025 - Current",
-    cgpa: "Appeared",
+    period: "May 2025 - August 2026",
+    cgpa: "3.67/4.00",
     credits: "36 Credits",
     status: "current",
     courses: [
