@@ -27,10 +27,9 @@ export function HeroSection() {
               <p className="text-primary font-medium text-sm sm:text-base tracking-wide uppercase">
                 Welcome to my portfolio
               </p>
-              <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                Abdul Muhaimen Jamil
-                <br />
-                <span className="text-primary">Washi</span>
+              <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
+                <span className="whitespace-nowrap block">Abdul Muhaimen Jamil</span>
+                <span className="text-primary block">Washi</span>
               </h1>
             </div>
             
