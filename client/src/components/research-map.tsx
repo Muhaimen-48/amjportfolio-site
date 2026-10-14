@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { MapPin, Calendar, ArrowRight } from "lucide-react";
@@ -46,6 +46,26 @@ const researchLocations: ResearchLocation[] = [
     period: "May 2024 - April 2025",
     status: "completed",
     detailPageId: "hakaluki-haor-climate-livelihoods",
+  },
+  {
+    id: "chandpur",
+    name: "Chandpur Estuarine & Riverine Fisheries Study",
+    shortName: "Chandpur",
+    coordinates: [23.2321, 90.6631],
+    description: "Field investigation and fisheries livelihood assessments focusing on riverine ecosystem dynamics and fishers' socio-economic status.",
+    period: "2023 - 2024",
+    status: "completed",
+    detailPageId: "chandpur-fisheries-study",
+  },
+  {
+    id: "patuakhali",
+    name: "Kuakata, Patuakhali Coastal Fisheries & Vulnerability Assessment",
+    shortName: "Kuakata, Patuakhali",
+    coordinates: [21.8167, 90.1167],
+    description: "Coastal and marine field surveys assessing small-scale coastal fisheries communities, marine ecosystems, and extreme weather vulnerability.",
+    period: "2023 - 2024",
+    status: "completed",
+    detailPageId: "patuakhali-coastal-fisheries",
   },
   {
     id: "chittagong",
@@ -149,7 +169,7 @@ export function ResearchMap() {
           </CardContent>
         </Card>
 
-        <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {researchLocations.map((location) => (
             <Card 
               key={location.id} 
